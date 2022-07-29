@@ -10,12 +10,12 @@
 """### Step 2: Install and Import Dependencies"""
 
 # Install dependencies from requirements.txt file
-pip install -r requirements.txt
+#pip install -r requirements.txt
 
 # Commented out IPython magic to ensure Python compatibility.
-git clone https://github.com/Project-MONAI/MONAI.git
+#git clone https://github.com/Project-MONAI/MONAI.git
 # %cd MONAI/
-pip install -e '.[all]'
+#pip install -e '.[all]'
 
 import os
 import urllib.request
