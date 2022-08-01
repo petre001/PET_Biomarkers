@@ -1,0 +1,11 @@
+matplotlib
+monai
+numpy
+pandas
+pydicom
+scikit_learn
+seaborn
+streamlit
+torch
+torchsummary
+torchvision
