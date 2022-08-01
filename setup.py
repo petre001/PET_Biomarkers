@@ -18,29 +18,8 @@
 #pip install -e '.[all]'
 
 import os
-import urllib.request
-import tarfile
-import zipfile
-import copy
-import time
-import numpy as np
 import pandas as pd
-from torchsummary import summary
-from sklearn.model_selection import train_test_split
-import matplotlib.pyplot as plt
-
-import pydicom
-import cv2
-from PIL import Image
-
 import torch
-from torchvision import datasets, transforms
-import torchvision
-from torch.utils.data import DataLoader, Dataset
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-
 import monai
 from monai.data import DataLoader, ImageDataset, NumpyReader
 from monai.transforms import AddChannel, Compose, RandRotate90, Resize, ScaleIntensity, EnsureType
@@ -54,14 +33,14 @@ print("torch: ", TORCH_VERSION, "; cuda: ", CUDA_VERSION)
 
 """### Step 3: Load Training and Test data"""
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 # Commented out IPython magic to ensure Python compatibility.
 # %cd /content/drive/MyDrive/test_mci_data
 
 # Create a list of images and labels
-df = pd.read_csv('MCI_labels.csv')
+df = pd.read_csv('data/MCI_labels.csv')
 images = df.iloc[:,0].to_list()
 images = [i+'.npy' for i in images]
 labels = df.iloc[:,10].to_list()
