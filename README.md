@@ -4,7 +4,7 @@
 ### Category: Health, wellness and fitness
 ### Type: CNN's
 ### Background & Situation
-Amyloid status is important in evaluating MCI patients; however, PET amyloid scans are expensive and involve ionizing radiation. This repo contains a deep learning algorithm that predicts amyloid status from MRI scans, an already existing component of the medical workup for MCI.
+Amyloid status is important in evaluating mild cognitive impairment (MCI) patients; however, PET amyloid scans are expensive and involve ionizing radiation. This repo contains a deep learning algorithm that predicts amyloid status from MRI scans, an already existing component of the medical workup for MCI.
 
 ### Links to original datasets
 
