@@ -8,7 +8,7 @@ Amyloid status is important in evaluating mild cognitive impairment (MCI) patien
 
 ### Links to original datasets
 
-Because of the size of the original dataset, it is not in a publically accessible repo.
+https://adni.loni.usc.edu
 
 ### Links to papers
 
