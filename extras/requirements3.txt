@@ -1,0 +1,7 @@
+monai
+torch
+numpy
+matplotlib
+pyplot
+streamlit
+pandas

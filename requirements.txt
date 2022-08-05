@@ -1,7 +1,6 @@
-monai
-torch
-numpy
-matplotlib
-pyplot
-streamlit
-pandas
+matplotlib==3.5.1
+monai==0.9.1
+numpy==1.22.3
+pandas==1.4.3
+streamlit==1.11.0
+torch==1.10.2
