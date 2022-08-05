@@ -25,9 +25,9 @@ models: contains trained model for amyloid status prediction with input the imag
 ### Instructions to run Streamlit app.
 Use Streamlit to predict amyloid status from MRI scans in 21 demo subjects, in batches of 4.
 
-### Install dependencies from requirements.txt file
+#### Install dependencies from requirements.txt file
 pip install -r requirements.txt
 
-### Start the Streamlit app
+#### Start the Streamlit app
 streamlit run main.py
 
