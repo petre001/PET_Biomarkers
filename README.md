@@ -22,7 +22,7 @@ scripts: folder with scripts for creating a list of demo images and labels and v
 
 models: contains trained model for amyloid status prediction with input the images in data folder and output
 
-Instructions to run Streamlit app.
+### Instructions to run Streamlit app.
 Use Streamlit to predict amyloid status from MRI scans in 21 demo subjects, in batches of 4.
 
 ### Install dependencies from requirements.txt file
