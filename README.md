@@ -12,6 +12,9 @@ Because of the size of the original dataset, it is not in a publically accessibl
 
 ### Links to papers
 
+Tosun D, Veitch D, Aisen P, Jack CR, Jr., Jagust WJ, Petersen RC, et al. Detection of β-amyloid positivity in Alzheimer’s Disease Neuroimaging Initiative participants with demographics, cognition, MRI and plasma biomarkers. Brain Communications. 2021;3(2):fcab008. 
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8023542/
 
 ### Project Structure
 main.py: main script for running demo
