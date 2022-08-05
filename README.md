@@ -29,5 +29,5 @@ Use Streamlit to predict amyloid status from MRI scans in 21 demo subjects, in b
 pip install -r requirements.txt
 
 ### Start the Streamlit app
-make run
+streamlit run main.py
 
