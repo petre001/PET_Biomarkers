@@ -16,7 +16,7 @@ Because of the size of the original dataset, it is not in a publically accessibl
 ### Project Structure
 main.py: main script for running demo
 
-data: folder with csv file with names of image files and labels in 192 subjects with MCI; also contains .npy 3D image files from 21 subjects for demo
+data: folder with csv file with names of image files and labels in 192 subjects with MCI; also contains .npy 3D image files for demo
 
 scripts: folder with scripts for creating a list of demo images and labels and visualizing results
 
