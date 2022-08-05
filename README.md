@@ -16,8 +16,6 @@ Because of the size of the original dataset, it is not in a publically accessibl
 ### Project Structure
 main.py: main script for running demo
 
-model.py
-
 data: folder with csv. File with names of image files and labels in 192 subjects with MCI
 
 scripts: folder with scripts for creating a list of demo images and labels and visualizing results
